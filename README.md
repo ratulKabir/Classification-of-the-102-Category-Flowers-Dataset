@@ -3,7 +3,7 @@ This was a group project that we did as part of completing a course
 ### Dataset
 This dataset contains 102 classes. Each class has 40 to 258 images. Images are in different variations. Dataset can be downloaded [here](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html).
 
-###Result
+### Result
 We have tried different approaches with this dataset. A comparison of all the approaches is shown below:<br>
 ![Comparison table](https://imgur.com/MSWT7qG.png)<br>
 Based on the comparisons from table 1 we decided to take the small as out final model and ran it for
@@ -22,7 +22,7 @@ Class specific accuracy and precision is shown below in respective graphs.<br>
 ![Accuracy of each class](https://imgur.com/cO2npvZ.png)<br>
 ![Precision of each class](https://imgur.com/1n0H8cK.png)<br>
 
-###Cross Validation Results
+### Cross Validation Results
 We have tried cross validation with 10 folds. We used Scikit-learn’s StratifiedKFold() function to make
 sure every class is equally proportionally present in both training and validation datasets. The maximum
 and minimum test accuracy was 50% and 31% respectively. Among the 10 test results, the standard
