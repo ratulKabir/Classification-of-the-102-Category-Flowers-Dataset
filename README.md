@@ -5,7 +5,7 @@ This dataset contains 102 classes. Each class has 40 to 258 images. Images are i
 
 ###Result
 We have tried different approaches with this dataset. A comparison of all the approaches is shown below:
-![Comparison table](https://imgur.com/MSWT7qG)
+![Comparison table](https://imgur.com/MSWT7qG.png)
 Based on the comparisons from table 1 we decided to take the small as out final model and ran it for
 longer time. We ran our model for 50 epochs with early stopping condition. The condition was that if the
 validation accuracy does not improve by 0.0001 in 5 epochs. Our training stopped after 23 epochs with
