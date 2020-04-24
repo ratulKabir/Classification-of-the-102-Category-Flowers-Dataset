@@ -24,6 +24,7 @@ Class specific accuracy and precision is shown below in respective graphs.<br>
 ![Precision of each class](https://imgur.com/1n0H8cK.png)<br>
 
 ### Cross Validation Results
+Code for this section can be found in [Accuracy_per_class_cross_val.ipynb](https://github.com/ratulKabir/Classification-of-the-102-Category-Flowers-Dataset/blob/master/Accuracy_per_class_cross_val.ipynb).<br>
 We have tried cross validation with 10 folds. We used Scikit-learn’s StratifiedKFold() function to make
 sure every class is equally proportionally present in both training and validation datasets. The maximum
 and minimum test accuracy was 50% and 31% respectively. Among the 10 test results, the standard
