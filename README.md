@@ -4,7 +4,7 @@ This was a group project that we did as part of completing a course
 This dataset contains 102 classes. Each class has 40 to 258 images. Images are in different variations. Dataset can be downloaded [here](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html).
 
 ### Result
-Code for this section can be found in [Final_draft_Cnn_flowers.ipynb] (https://github.com/ratulKabir/Classification-of-the-102-Category-Flowers-Dataset/blob/master/Final_draft_Cnn_flowers.ipynb)
+Code for this section can be found in [Final_draft_Cnn_flowers.ipynb] (https://github.com/ratulKabir/Classification-of-the-102-Category-Flowers-Dataset/blob/master/Final_draft_Cnn_flowers.ipynb).<br>
 We have tried different approaches with this dataset. A comparison of all the approaches is shown below:<br>
 ![Comparison table](https://imgur.com/MSWT7qG.png)<br>
 Based on the comparisons from table 1 we decided to take the small as out final model and ran it for
